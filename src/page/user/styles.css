@@ -1,0 +1,627 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+.resolucion {
+    width: 99%;
+    text-align: center;
+}
+
+
+/**Movil**/
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+
+    .tablet {
+        display: none;
+    }
+}
+
+
+/**Tablet**/
+
+@media (min-width: 768px) and (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+
+    .movil {
+        display: none;
+    }
+}
+
+
+/**Escritorio**/
+
+@media (min-width: 991px) {
+    .tablet {
+        display: none;
+    }
+
+    .movil {
+        display: none;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(images/bg2.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.logo {
+    position: absolute;
+    top: 0px;
+    /* Ajusta la distancia desde la parte superior */
+    left: -400px;
+    /* Ajusta la distancia desde el lado izquierdo */
+    z-index: 1;
+}
+
+.logo-img {
+    width: 200px;
+    /* Ancho del logo */
+    height: auto;
+    /* Altura automática para mantener la proporción */
+
+}
+
+
+
+.header1-content {
+    text-align: center;
+}
+
+.header1-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-shadow: 0 0 10px #e5e75d;
+    /* Sombra neón verde */
+    text-decoration: underline 5px #fffb12;
+    /* Línea inferior verde */
+    text-decoration-thickness: 10px;
+}
+
+.header1-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+    margin-top: 100px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: rgb(93, 182, 182);
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: blue;
+
+}
+
+.Canchas {
+    padding: 10px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.Canchas-content {
+    text-align: center;
+}
+
+.Canchas-content h2 {
+    font-size: 55px;
+    line-height: 100px;
+    color: #323337;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 70px;
+
+}
+
+.txt-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 160px;
+}
+
+.Canchas-group1 {
+    display: flex;
+    justify-content: start;
+    margin-top: 340px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+
+.SALONES-group {
+    display: flex;
+    justify-content: center;
+    margin-top: -170px;
+    padding-bottom: 14px;
+
+
+}
+
+.AIRE_LIBRE-group {
+    display: flex;
+    justify-content: end;
+    margin-top: -165px;
+    margin-right: 65px;
+    padding-bottom: 10px;
+
+}
+
+.Canchas-1 img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.Canchas-1 img {
+    width: 150px;
+    /* Ancho del contenedor de imagen */
+    height: 150px;
+    /* Altura del contenedor de imagen */
+    overflow: hidden;
+    /* Oculta cualquier contenido que se desborde */
+    border-radius: 50%;
+    /* Hace que el contenedor sea redondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    border: 8px solid black;
+    /* Agregar borde negro de 2px */
+}
+
+.Canchas-img {
+    width: 100%;
+    /* Ocupa todo el espacio dentro del contenedor */
+    height: 100%;
+    /* Ocupa todo el espacio dentro del contenedor */
+    object-fit: cover;
+    /* Escala la imagen para llenar el contenedor */
+    border-radius: 50%;
+
+
+
+}
+
+.Canchas-1 h3 {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 150px;
+    color: #323337;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.Canchas-1 {
+    display: flex;
+    /* Utiliza flexbox para los elementos hijos */
+    gap: 10px;
+
+}
+
+.Canchas-2 img {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.Canchas-2 img {
+    width: 150px;
+    /* Ancho del contenedor de imagen */
+    height: 150px;
+    /* Altura del contenedor de imagen */
+    overflow: hidden;
+    /* Oculta cualquier contenido que se desborde */
+    border-radius: 50%;
+    /* Hace que el contenedor sea redondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    border: 8px solid black;
+    /* Agregar borde negro de 2px */
+
+}
+
+.Canchas-img {
+    width: 100%;
+    /* Ocupa todo el espacio dentro del contenedor */
+    height: 100%;
+    /* Ocupa todo el espacio dentro del contenedor */
+    object-fit: cover;
+    /* Escala la imagen para llenar el contenedor */
+    border-radius: 50%;
+
+
+}
+
+.Canchas-2 h3 {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 94px;
+    color: #323337;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.Canchas-2 {
+    display: flex;
+    /* Utiliza flexbox para los elementos hijos */
+    gap: 10px;
+
+}
+
+
+.Canchas-3 img {
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.Canchas-3 img {
+    width: 150px;
+    /* Ancho del contenedor de imagen */
+    height: 150px;
+    /* Altura del contenedor de imagen */
+    overflow: hidden;
+    /* Oculta cualquier contenido que se desborde */
+    border-radius: 50%;
+    /* Hace que el contenedor sea redondo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    border: 8px solid black;
+    /* Agregar borde negro de 2px */
+}
+
+.Canchas-img {
+    width: 100%;
+    /* Ocupa todo el espacio dentro del contenedor */
+    height: 100%;
+    /* Ocupa todo el espacio dentro del contenedor */
+    object-fit: cover;
+    /* Escala la imagen para llenar el contenedor */
+    border-radius: 50%;
+
+
+}
+
+.Canchas-3 h3 {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 150px;
+    color: #323337;
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+.Canchas-3 {
+    display: flex;
+    /* Utiliza flexbox para los elementos hijos */
+    gap: 10px;
+}
+
+.Servicios {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(images/6197706_orig.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+
+.Servicios-content {
+    text-align: center;
+}
+
+.Servicios-content h2 {
+    font: size 55px;
+    line-height: 70px;
+    color: #f9fafc;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+
+.Servicios-content p {
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.Servicios-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+
+}
+
+.Servicios-group2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.Servicios-group3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.Servicios-1 {
+    padding: 0 100px;
+}
+
+.Servicios-2 {
+    padding: 0 100px;
+}
+
+.Servicios-3 {
+    padding: 0 100px;
+}
+
+.Servicios-1 img {
+    width: 100px;
+    margin-bottom: 45px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.Servicios-2 img {
+    width: 100px;
+    margin-bottom: 28px;
+    margin-top: 20px;
+}
+
+.Servicios-3 img {
+    width: 100px;
+    margin-bottom: 28px;
+    margin-top: 20px;
+}
+
+.Servicios-1 h3 {
+    color: #eaccb3;
+    font-size: 18px;
+}
+
+.Servicios-2 h3 {
+    color: #eaccb3;
+    font-size: 18px;
+}
+
+.Servicios-3 h3 {
+    color: #eaccb3;
+    font-size: 18px;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #e1e2e6;
+}
+
+.general-2 {
+    background-image: url(images/Cancha-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(images/salones.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: #323337;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+p {
+    font-size: 16px;
+    color: #414247;
+    margin: 25px 0 45px 0;
+}
+
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+.blog-Content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+@media(max-width:991px) {
+
+    .header1 {
+        min-height: 0vh;
+    }
+
+    .header1-content {
+        padding: 100px 30px;
+    }
+
+    .header1-content p {
+        padding: 0;
+    }
+
+    .Canchas {
+        padding: 30px;
+    }
+
+    .Canchas-content h2 {
+        padding: 0;
+    }
+
+    .txt-p {
+        padding: 0;
+    }
+
+    .Canchas-group {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .Canchas-img {
+        display: none;
+    }
+
+    .Servicios {
+        padding: 30px;
+    }
+
+    .Servicios-content p {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .Servicios-1 {
+        margin-bottom: 25px;
+    }
+
+
+    .general {
+        flex-direction: column;
+    }
+
+    .general-1 {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .general-2,
+    .general-3 {
+        display: none;
+    }
+
+    .blog {
+        padding: 30px;
+    }
+
+    .blog-Content {
+        flex-direction: column;
+    }
+
+    .blog-1 {
+        padding: 0;
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}
+.header1 ul{
+    font-size: 150%;
+}
